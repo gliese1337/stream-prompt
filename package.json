@@ -1,0 +1,36 @@
+{
+  "name": "stream-prompt",
+  "version": "1.0.0",
+  "description": "A command-line prompter that works on arbitrary streams.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "node ./node_modules/typescript/bin/tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gliese1337/stream-prompt.git"
+  },
+  "keywords": [
+    "prompt",
+    "cli",
+    "stream"
+  ],
+  "author": "Logan R. Kearsley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gliese1337/stream-prompt/issues"
+  },
+  "homepage": "https://github.com/gliese1337/stream-prompt#readme",
+  "devDependencies": {
+    "@types/ansi-escapes": "^3.0.1",
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "ansi-escapes": "^3.2.0"
+  }
+}
